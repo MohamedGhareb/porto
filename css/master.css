@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --main-color:#3a6cf4;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+
+header{
+display: flex;
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    color: var(--main-color);
+    
+
+}
+
+.logo{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8em;
+  
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 50px;
+  color: var(--main-color);
+  font-size: 1.1em; 
+
+}
+nav a:hover{
+  color: #601cfc;
+
+
+}
+
+section{
+  padding: 100px 200px;
+  
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/back.png) ;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.main h2{
+  font-size: 1.4em;
+  color: white;
+  margin-top: 200px;
+}
+
+.main h2 span{
+  color: #3a6cf4;
+  font-weight: 600;
+  font-size: 3em;
+  display: inline-block;
+  margin-top: .5em;
+}
+.main h3 {
+  font-size:2em ;
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.view{
+  color: white;
+  background-color: #3a6cf4;
+  padding: .9em 2em ;
+  font-size: 1.1em;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.5s ease;
+
+}
+.view:hover{
+  background-color: #601cfc;
+  transform: scale(1.1);
+
+}
+
+.social-icons a {
+  color: wheat;
+  padding-right: 30px;
+  font-size: 1.7em;
+
+}
+.social-icons i {
+  transition: 0.5s;
+}
+.social-icons a :hover{
+  transform: scale(1.5);
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 3.2em;
+  font-weight: 800;
+  margin-bottom: 100px;
+
+}
+.conted{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.card{
+background-color: white;
+  width: 21.25em;
+box-shadow: 0 5px  25px rgba(1, 1, 1, 15%);
+text-align: center;
+border-radius: 15px;
+transition: 0.5s;
+  
+}
+.icon{
+  font-size: 5.625em;
+color: #3a6cf4;
+margin-top: 30px;
+
+}
+.info h3, p{
+margin-bottom: 15px;
+}
+.info h3{
+  font-size: 1.5625em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px;
+  color: #3a6cf4;
+  
+}
+.info p {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.projects{
+  background-color: #000016;
+  padding-bottom: 20em;
+}
+.projects .content{
+  margin-top: 30px;
+display: flex;
+
+align-items: center;
+
+}
+.project-card{
+
+  background-color: white;
+  border: 1px solid white;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.5s;
+  text-align: center;
+
+
+}
+.project-card:hover{
+  transform: scale(1.1);
+}
+.project-card:hover .project-image{
+opacity: 0.9;
+}
+.project-image img{
+  width: 100%;
+}
+.project-info{
+  padding: 1em;
+}
+.project-cat{
+  font-size: 0.8em;
+
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.more-details{
+  text-decoration: none;
+}
+.more-details:hover{
+  color: #3a6cf4;
+}
+.contact .card .info h3,p{
+color: black;
+
+}
+.contact .card .icon{
+  font-size: 4.5em;
+}
+
+.contact .card .info p{
+font-size: 1.25em;
+}
+.footer{
+  display: flex;
+  background-color: #000016;
+  color: white;
+  justify-content: space-between;
+  text-align: center;
+padding: 2em ;
+
+}
+.footer h3,span{
+  padding: 10px 12px 0 0;
+}
+
+.footer span{
+  color: #3a6cf4;
+  
+}
+.footer .link a{
+  color: white;
+  margin-left: 25px;
+  font-size: 1.8em;
+  text-align: center;
+}
+.footer .link i{
+  padding: 10px 12px 0 0;
+transition: 0.5s;
+}
+.footer .link i:hover{
+  transform: scale(1.5);
+}
+
