@@ -264,3 +264,70 @@ transition: 0.5s;
   transform: scale(1.5);
 }
 
+
+@media (max-width:1023px){
+header{
+  padding: 10px 20px;
+
+}
+nav a{
+  padding-left: 15px;
+  font-size: 0.8em;
+}
+.title{
+  font-size: 1.8em;
+
+}
+section {
+padding: 80px 35px;
+
+}
+
+.conted h2{
+  font-size: 1em;
+}
+.conted h3 {
+  font-size: 1.6em;
+}
+.projects .content{
+  flex-direction: column;
+  align-items: center;
+}
+.contact .conted{
+  margin-bottom: 5.5em;
+}
+.footer{
+  margin: 0;
+  padding: 0;
+}
+.footer h3, span{
+  font-size: 1em;
+
+}
+.footer .link a{
+  font-size: 1em;
+margin-left: 5px;
+}
+
+}
+@media (max-width: 644px){
+  body{
+    font-size: 12px;
+  }
+  nav a {
+    font-size: 1em;
+  }
+  section .conted{
+    padding: 80px 0px;
+    margin-left: 2.5em;
+    
+    }
+    section .conted .card{
+      margin-top: 1.5em;
+    }
+}
+@media (max-width: 300px){
+body{
+  font-size: 10px;
+}
+}
